@@ -1,7 +1,9 @@
 # Special Phase Functions
 
 These Matlab functions to compute the phase function for the Bessel and Airy
-functions and their derivatives.
+functions and their derivatives. Derivation can be found in: 
+
+-   Horsley, D.E. Numer. Math. (2017) 136: 679. https://doi.org/10.1007/s00211-016-0853-7
 
 `phase  =  besselphase(nu,x)` computes 
 θ<sub>ν</sub>(x) = arctan(Y<sub>ν</sub>(x)/J<sub>ν</sub>(x))
